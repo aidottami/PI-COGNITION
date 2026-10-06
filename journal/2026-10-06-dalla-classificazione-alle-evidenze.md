@@ -142,3 +142,8 @@ l’analisi si è fermata?**
 ---
 
 [Indice del journal](../README.md)
+
+*Aggiornamento del 7 ottobre: le prove successive sulla supervisione del runner
+e sulla raccolta delle evidenze sono raccontate in
+[Citazioni esatte e prove mancanti](2026-10-07-citazioni-esatte-e-prove-mancanti.md).
+Il resoconto sopra conserva lo stato delle prove descritte nella prima puntata.*
