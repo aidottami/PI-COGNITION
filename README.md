@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo-stacked-color.png" alt="AI-DOTTAMI" width="320">
+</p>
+
 # PI-COGNITION — Engineering Journal
 
 Stiamo costruendo **PIGUARD**, una pipeline sperimentale per analizzare documenti
