@@ -77,6 +77,10 @@ specifico runtime.
 
 ## Cosa facciamo dopo
 
+Aggiornamento del 7 ottobre: i controlli FP32 e retrieval sugli stessi 18 testi
+sono stati completati; risultati e limiti nella [puntata 5](2026-10-07-json-valido-reasoning-incompleto.md).
+Il piano seguente documenta il punto di partenza; il corpus ampliato resta da realizzare.
+
 Il prossimo confronto userà anche il compito asimmetrico query/documento,
 con corpus più ampio e controlli difficili bilanciati. Verificheremo Gemma in
 FP32 per distinguere l'effetto della precisione da quello del modello.
