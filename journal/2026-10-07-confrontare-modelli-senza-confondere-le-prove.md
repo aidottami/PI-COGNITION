@@ -2,6 +2,9 @@
 
 7 ottobre 2026 — Il percorso, puntata 3
 
+Aggiornamento successivo: [primo confronto testuale EmbeddingGemma 2/BGE-M3](2026-10-07-embeddinggemma2-bge-somiglianza-e-intento.md).
+Lo stato preparatorio raccontato qui resta il checkpoint precedente alle prove.
+
 Nel [precedente aggiornamento](2026-10-07-citazioni-esatte-e-prove-mancanti.md)
 abbiamo incontrato una regressione importante: citazioni formalmente valide
 non garantivano la conservazione di una definizione decisiva. Oggi abbiamo
