@@ -23,6 +23,7 @@ L’impostazione editoriale è la stessa di [HC — Engineering Journal](https:/
 
 | Data | Articolo | Tema |
 |---|---|---|
+| 7 ottobre 2026 | [Confrontare modelli senza confondere le prove](journal/2026-10-07-confrontare-modelli-senza-confondere-le-prove.md) | Il percorso, puntata 3 — sei casi di sviluppo, confronto LLM e avvio della sperimentazione EmbeddingGemma 2/BGE-M3 |
 | 7 ottobre 2026 | [Citazioni esatte e prove mancanti](journal/2026-10-07-citazioni-esatte-e-prove-mancanti.md) | Il percorso, puntata 2 — citazioni verificabili, vincoli di generazione e una regressione nella raccolta delle evidenze |
 | 6 ottobre 2026 | [Dalla classificazione alle evidenze: perché una risposta valida non basta](journal/2026-10-06-dalla-classificazione-alle-evidenze.md) | Il percorso, puntata 1 — architettura, primi confronti, attacchi distribuiti e problemi del runtime |
 
