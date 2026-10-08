@@ -39,3 +39,11 @@ Questi strumenti riguardano la preparazione del documento: non sostituiscono i d
 Il criterio principale sarà la fedeltà: omissioni, alterazioni, aggiunte, ordine di lettura e conservazione delle istruzioni sparse. Misureremo anche tempi e consumi, ma estrarre più velocemente un documento incompleto non sarebbe un progresso.
 
 Nessuno di questi risultati costituisce una validazione della detection o una promozione nella pipeline operativa.
+
+## Aggiornamento serale dell’8 ottobre
+
+Le prime prove con Granite-Docling ed EasyOCR sono ora concluse. Granite ha recuperato l’istruzione nell’immagine, ma sulla tabella è entrato in ripetizione alla riga 17 fino a esaurire gli 8.192 token disponibili. L’output generativo non chiudeva la tabella; l’esportazione la restituiva vuota pur dichiarando SUCCESS. La diagnosi distingue quindi un problema di generazione da una segnalazione insufficiente dell’incompletezza. Il tentativo mirato per regioni non ha fornito un recupero affidabile: sono emerse celle aggiunte e un’altra ripetizione. Risoluzione e percorso di conversione differivano, quindi non ne ricaviamo una conclusione generale sui metodi per regioni.
+
+EasyOCR su GPU è stato confrontato con Tesseract su CPU su sei pagine renderizzate a 300 DPI. Entrambi recuperano il marker nell’immagine; in questa prova, con una sola misura per pagina e senza ottimizzazione, EasyOCR non mostra un vantaggio di velocità né nei controlli limitati sugli identificatori. Non è una graduatoria generale fra OCR.
+
+Manteniamo pertanto il percorso nativo più Tesseract come riferimento. Un controllo sperimentale riconosce limite generativo, ripetizioni e strutture non chiuse: sette test unitari e il replay del fallimento reale passano. L’integrazione nel runner resta da validare, anche su output corretti. Nessun candidato è stato promosso: la priorità è impedire che un’estrazione incompleta venga scambiata per copertura verificata.
