@@ -1,5 +1,8 @@
 # JSON valido, reasoning incompleto: due problemi diversi
 
+Aggiornamento dell'8 ottobre: la [puntata 6](2026-10-08-ragionamento-conciso-e-regressioni.md)
+documenta la diagnosi del ciclo ripetitivo e la successiva prova controllata.
+
 7 ottobre 2026 — Il percorso, puntata 5
 
 Torniamo all'analisi delle evidenze documentali. Il nostro obiettivo non è

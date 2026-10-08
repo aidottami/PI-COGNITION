@@ -23,6 +23,7 @@ L’impostazione editoriale è la stessa di [HC — Engineering Journal](https:/
 
 | Data | Articolo | Tema |
 |---|---|---|
+| 8 ottobre 2026 | [Ragionamento conciso: completare non significa ancora capire tutto](journal/2026-10-08-ragionamento-conciso-e-regressioni.md) | Il percorso, puntata 6 — loop, prova controllata, regressioni e destinatari inferiti |
 | 7 ottobre 2026 | [JSON valido, reasoning incompleto: due problemi diversi](journal/2026-10-07-json-valido-reasoning-incompleto.md) | Il percorso, puntata 5 — formato vincolato, budget separati, limiti semantici e controlli embedding |
 | 7 ottobre 2026 | [EmbeddingGemma 2 e BGE-M3: somiglianza e intento non coincidono](journal/2026-10-07-embeddinggemma2-bge-somiglianza-e-intento.md) | Il percorso, puntata 4 — primo confronto su 18 testi, ordinamento dei punteggi e limiti della similarity |
 | 7 ottobre 2026 | [Confrontare modelli senza confondere le prove](journal/2026-10-07-confrontare-modelli-senza-confondere-le-prove.md) | Il percorso, puntata 3 — sei casi di sviluppo, confronto LLM e avvio della sperimentazione EmbeddingGemma 2/BGE-M3 |
