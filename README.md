@@ -23,6 +23,7 @@ L’impostazione editoriale è la stessa di [HC — Engineering Journal](https:/
 
 | Data | Articolo | Tema |
 |---|---|---|
+| 12 novembre 2026 | [La stessa frase, due decisioni](journal/2026-11-12-la-stessa-frase.md) | OCR sulle pagine miste, secondo giudice e comando citato in un manuale |
 | 22 ottobre 2026 | [Elaborato non significa letto bene](journal/2026-10-22-elaborato-non-significa-letto-bene.md) | Orientamento e qualità OCR, budget pixel, costi e recupero dopo crash |
 | 13 ottobre 2026 | [Non inventare la causa di un fallimento](journal/2026-10-13-non-inventare-la-causa.md) | Evidenze OOM, recupero del supervisore e selezione rigorosa dei benchmark |
 | 8 ottobre 2026 | [Leggere prima di giudicare](journal/2026-10-08-leggere-prima-di-giudicare.md) | Il percorso, puntata 7 — conversione documentale, OCR, confronto CPU/GPU e fedeltà dell’estrazione |
