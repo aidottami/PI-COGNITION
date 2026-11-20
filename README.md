@@ -23,6 +23,7 @@ L’impostazione editoriale è la stessa di [HC — Engineering Journal](https:/
 
 | Data | Articolo | Tema |
 |---|---|---|
+| 20 novembre 2026 | [Due letture concordi possono sbagliare insieme](journal/2026-11-20-due-letture-possono-sbagliare-insieme.md) | OCR, giudici multipli, astensioni ed errori condivisi |
 | 17 novembre 2026 | [Bloccare un documento non significa averlo letto tutto](journal/2026-11-17-bloccare-non-significa-leggere.md) | Evidenze semantiche, visibilità grafica e righe oltre il bordo |
 | 12 novembre 2026 | [La stessa frase, due decisioni](journal/2026-11-12-la-stessa-frase.md) | OCR sulle pagine miste, secondo giudice e comando citato in un manuale |
 | 22 ottobre 2026 | [Elaborato non significa letto bene](journal/2026-10-22-elaborato-non-significa-letto-bene.md) | Orientamento e qualità OCR, budget pixel, costi e recupero dopo crash |
@@ -55,9 +56,10 @@ La preparazione del documento è pensata per worker isolati ed effimeri.
 I modelli di inferenza possono invece restare residenti: isolamento della
 preparazione e ciclo di vita dei modelli sono problemi differenti.
 
-Studiamo il contributo di più modelli e di un ulteriore giudice con decisioni
-strutturate, di tipo Jev-like. È una direzione da valutare, non un componente
-già validato. Più giudici non garantiscono indipendenza: possono condividere gli
+Il criterio architetturale approvato prevede **più modelli per ogni punto decisionale probabilistico**,
+con esiti separati e un’aggregazione versionata. Disaccordi, astensioni ed errori tecnici
+rimangono distinti. Le combinazioni sono da validare: non dichiariamo già attivi
+tutti questi gateway multimodello. Più giudici non garantiscono indipendenza: possono condividere gli
 stessi errori. Pesi e soglie richiedono misure e calibrazione, non una media
 delle confidence dichiarate dai modelli.
 
