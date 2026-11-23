@@ -40,6 +40,8 @@ Dire che Clef ha prodotto zero richieste superflue esplicite sarebbe incompleto 
 
 La presentazione conta. Scambiare le letture cambia la scelta di approfondire in quattro casi per Clef e Kev, cinque per Nimble. Invertire le opzioni la cambia rispettivamente in zero, cinque e sette casi. La stessa conclusione aggregata può nascondere una diversa ripartizione tra decisione e astensione: conserveremo entrambe.
 
+**Precisazione del 23 novembre 2026:** nel controllo degli encoder abbiamo verificato che Clef ordina internamente le opzioni. Invertirle nel JSON non cambia la loro sequenza effettiva: gli zero cambiamenti osservati non dimostrano da soli robustezza a questa perturbazione. Il risultato storico resta invariato; si precisa il significato della prova. Dettagli in [Il test comincia prima della GPU](2026-11-23-il-test-comincia-prima-della-gpu.md).
+
 Sull'A40, le mediane per richiesta con due domande sono state circa 0,166 secondi per Clef, 0,155 per Kev e 0,447 per Nimble. Escludono caricamento e download; non sono un confronto hardware equo con Laya su CPU. Questi tempi riguardano testi brevi già estratti, non la scansione completa di un PDF.
 
 ## L'accordo non crea informazione nuova

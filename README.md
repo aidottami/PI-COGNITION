@@ -23,6 +23,7 @@ L’impostazione editoriale è la stessa di [HC — Engineering Journal](https:/
 
 | Data | Articolo | Tema |
 |---|---|---|
+| 23 novembre 2026 | [Il test comincia prima della GPU](journal/2026-11-23-il-test-comincia-prima-della-gpu.md) | Pilota OCR esterno, accordi sbagliati e verifica degli input effettivi |
 | 20 novembre 2026 | [Due letture concordi possono sbagliare insieme](journal/2026-11-20-due-letture-possono-sbagliare-insieme.md) | OCR, giudici multipli, astensioni ed errori condivisi |
 | 17 novembre 2026 | [Bloccare un documento non significa averlo letto tutto](journal/2026-11-17-bloccare-non-significa-leggere.md) | Evidenze semantiche, visibilità grafica e righe oltre il bordo |
 | 12 novembre 2026 | [La stessa frase, due decisioni](journal/2026-11-12-la-stessa-frase.md) | OCR sulle pagine miste, secondo giudice e comando citato in un manuale |
